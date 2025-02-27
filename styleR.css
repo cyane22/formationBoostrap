@@ -1,0 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Redressed&display=swap');
+
+.redressed {
+    font-family: "Redressed", cursive;
+}
+.merriweather {
+    font-family: "Merriweather" , serif;
+}
+
+body{
+    margin: 0 auto;
+}
+
+.navbar-brand{
+    font-family: "Redressed", serif;
+    font-weight: 50;
+    font-style: normal;
+    font-size: xx-large;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family: 'Merriweather' , serif;
+    font-weight: 500;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 90;
+}
+.navbar .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out,  border-color 0.3s ease;
+}
+.navbar .nav-link:hover {
+    color: #fb911f;
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+/* section heros */
+.heros{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+    url('../images/logo.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height: 800px;
+    
+}
+.heros .heros-descs{
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+}
+.heros .heros-desc{
+    font-size: 30px;
+    font-weight: 40;
+    color: #fff;
+}
+.btn-commander{
+    padding: 10px 20px;
+    background:red ;
+    margin-top: -10px;
+    text-transform: uppercase;
+}
+.btn-commander :hover{
+     background: #fb911f;
+     transition: ease-out;
+}
+.para{
+    font-family: "Merriweather" , serif;
+}
+/* section menu */
+
+.section-title{
+    text-align: center;
+    font-family: "Merriweather";
+    font-weight: 600;
+    font-size: 40px;
+    color: red;
+    text-decoration: underline;
+}
+.text-body-secondary{
+    text-decoration: underline;
+    background-color: #fb911f;
+    
+}
+.card-body{
+  text-align: center;
+}
+.div{
+    text-align: center;
+}
+
+/* section contact */
+.bi-person{
+    font-size: 40px;
+    color: #fb911f
+}
+.bi-envelope{
+    font-size: 40px;
+    color: #fb911f
+}
+.bi-chat-right-text{
+    font-size: 40px;
+    color: #fb911f
+}
+
+/* section footer */
+footer {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        width: 400px;
+        margin-left: 30px;
+}
+footer a.cgv {
+    text-decoration: none;
+    color: #fb911f;
+}
