@@ -37,7 +37,7 @@ body{
 /* section heros */
 .heros{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-    url('../images/logo.jpg') center center fixed no-repeat;
+    url('./images/logo.jpg') center center fixed no-repeat;
     background-size: cover;
     height: 800px;
     
